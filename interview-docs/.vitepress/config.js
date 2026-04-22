@@ -1,4 +1,5 @@
 export default {
+	base: '/front-end_interview_guidence/',
 	title: '前端面试知识库',
 	description: 'HTML | CSS | JavaScript | Vue | 浏览器 | 网络',
 	themeConfig: {
