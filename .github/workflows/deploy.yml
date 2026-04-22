@@ -1,0 +1,30 @@
+# .github/workflows/deploy.yml
+name: Deploy to GitHub Pages
+
+on:
+    push:
+        branches: [master] # 监听 master 分支的推送
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0 # 确保获取完整历史
+
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 25 # 指定 Node.js 版本
+
+            - name: Install dependencies
+              run: npm install # 或 pnpm install
+
+            - name: Build
+              run: npm run build # 或 pnpm build
+
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./interview-docs/.vitepress/dist # 构建输出目录
