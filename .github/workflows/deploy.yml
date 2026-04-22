@@ -1,5 +1,8 @@
 # .github/workflows/deploy.yml
 name: Deploy to GitHub Pages
+# 新增这2行权限声明！必须加
+permissions:
+    contents: write
 
 on:
     push:
