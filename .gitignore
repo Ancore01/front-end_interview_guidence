@@ -1,0 +1,9 @@
+node_modules/
+resume.html
+interview-docs/.vitepress/cache/
+interview-docs/.vitepress/dist/
+
+*.log
+.env
+.env.test
+.env.development

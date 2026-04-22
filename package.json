@@ -1,0 +1,18 @@
+{
+	"name": "front-end_interview_guidence",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "vitepress build interview-docs",
+		"serve": "vitepress dev interview-docs",
+		"preview": "vitepress preview interview-docs"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.33.0",
+	"devDependencies": {
+		"vitepress": "^1.6.4"
+	}
+}
