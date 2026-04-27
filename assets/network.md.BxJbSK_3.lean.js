@@ -1,0 +1,1 @@
+import{_ as i,o as a,c as e,ae as t}from"./chunks/framework.B9bl8Hm5.js";const P=JSON.parse('{"title":"网络 知识点","description":"","frontmatter":{},"headers":[],"relativePath":"network.md","filePath":"network.md"}'),r={name:"network.md"};function o(h,l,n,T,d,u){return a(),e("div",null,[...l[0]||(l[0]=[t("",17)])])}const c=i(r,[["render",o]]);export{P as __pageData,c as default};

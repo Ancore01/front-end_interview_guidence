@@ -1,0 +1,1 @@
+import{_ as l,o as e,c as i,ae as o}from"./chunks/framework.B9bl8Hm5.js";const _=JSON.parse('{"title":"浏览器 知识点 dd","description":"","frontmatter":{},"headers":[],"relativePath":"browser.md","filePath":"browser.md"}'),r={name:"browser.md"};function t(d,a,s,n,c,h){return e(),i("div",null,[...a[0]||(a[0]=[o("",17)])])}const S=l(r,[["render",t]]);export{_ as __pageData,S as default};

@@ -1,0 +1,1 @@
+import{_ as l,o as i,c as a,ae as o}from"./chunks/framework.B9bl8Hm5.js";const S=JSON.parse('{"title":"CSS 知识点","description":"","frontmatter":{},"headers":[],"relativePath":"css.md","filePath":"css.md"}'),d={name:"css.md"};function c(t,e,r,s,n,h){return i(),a("div",null,[...e[0]||(e[0]=[o("",19)])])}const _=l(d,[["render",c]]);export{S as __pageData,_ as default};

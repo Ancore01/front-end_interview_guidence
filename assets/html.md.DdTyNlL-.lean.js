@@ -1,0 +1,1 @@
+import{_ as a,o as s,c as e,ae as t}from"./chunks/framework.B9bl8Hm5.js";const p=JSON.parse('{"title":"HTML 知识点","description":"","frontmatter":{},"headers":[],"relativePath":"html.md","filePath":"html.md"}'),l={name:"html.md"};function h(n,i,o,d,r,c){return s(),e("div",null,[...i[0]||(i[0]=[t("",11)])])}const E=a(l,[["render",h]]);export{p as __pageData,E as default};

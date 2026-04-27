@@ -1,0 +1,1 @@
+import{_ as i,o as a,c as n,ae as h}from"./chunks/framework.B9bl8Hm5.js";const g=JSON.parse('{"title":"代码 知识点得到","description":"","frontmatter":{},"headers":[],"relativePath":"code.md","filePath":"code.md"}'),t={name:"code.md"};function l(k,s,p,e,E,r){return a(),n("div",null,[...s[0]||(s[0]=[h("",20)])])}const y=i(t,[["render",l]]);export{g as __pageData,y as default};
